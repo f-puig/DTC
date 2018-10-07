@@ -1,4 +1,4 @@
-This Markdown document presents a workflow for the investigation of 1H NMR spectra with the *Decision Tree of Correlation - Multivariate Curve Resolution - Alternating Least Squares* (or **DTC-MCR-ALS**) method.
+This Markdown document presents a pipeline for the investigation of 1H NMR spectra with the *Decision Tree of Correlation - Multivariate Curve Resolution - Alternating Least Squares* (or **DTC-MCR-ALS**) method.
 
 The **DTC-MCR-ALS** method is a powerful tool for deciphering the composition of metabolomics samples from 1H NMR spectra, since it can resolve the pure NMR spectra and the concentrations of the metabolites found in these metabolomic samples.
 
