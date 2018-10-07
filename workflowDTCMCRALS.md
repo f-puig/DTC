@@ -32,7 +32,7 @@ The given dataset consists of 60 simulated 1H NMR spectra of mixtures composed b
 
 In **Figure 1** below, selected regions from these samples are shown.
 
-![Fig2](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig2.png)
+![Fig2](https://github.com/f-puig/DTC/raw/master/figures/Fig2.png)
 
 ***Figure 1***. *Highlighted regions from the simulated 1H NMR metabolomics dataset.*
 
@@ -40,7 +40,7 @@ In **Figure 1** below, selected regions from these samples are shown.
 
 In the following plot in **Figure 2**, relative concentrations used for the set of 60 samples.
 
-![Fig1](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig1.png)
+![Fig1](https://github.com/f-puig/DTC/raw/master/figures/Fig1.png)
 
 ***Figure 2***. *Relative concentration values for the 10 metabolites used to simulate the 1H NMR metabolomics dataset.*
 
@@ -58,7 +58,7 @@ Thus, the dataset is split in smaller datasets, each one covering a small spectr
 
 If two overlapped regions are slightly collided (see **Figure 3**), then it is preferable to set the limit for these windows in the chemical shift position associated with the minimal intensity (blue arrow in **Figure 3**).
 
-![Fig3](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig3.png)
+![Fig3](https://github.com/f-puig/DTC/raw/master/figures/Fig3.png)
 
 ***Figure 3.*** *Defining spectral windows limits in overlapped regions.* Two distinct overlapped regions (**1** and **2**) can be observed in the figure. The blue arrow points to the chemical shift position that will be used to separate the two overlapped regions.
 
@@ -71,7 +71,7 @@ For this small example dataset, only 26 windows were needed, but for datasets th
 
 In **Figure 4** below, the suggested limits for the analysis of the example dataset are shown.
 
-![Fig4](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig4.png)
+![Fig4](https://github.com/f-puig/DTC/raw/master/figures/Fig4.png)
 
 ***Figure 4.*** *Limits used for the analysis of the example dataset.*
 
@@ -104,15 +104,15 @@ In this MCR-ALS, the number of components must be set by the user. Thus, it is c
 
 For instance, given the **w_10** spectral window in **Figure 5**, the MCR-ALS resolution using 1 and 2 components is shown in **Figure 6** and **Figure 7**, respectively. We can appreciate that the optimal number of components is 2 because this spectral window is composed of 2 triplets.
 
-![Fig5](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig5.png)
+![Fig5](https://github.com/f-puig/DTC/raw/master/figures/Fig5.png)
 
 ***Figure 5.*** *Windows 10.*
 
-![Fig6](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig6.png)
+![Fig6](https://github.com/f-puig/DTC/raw/master/figures/Fig6.png)
 
 ***Figure 6.*** *MCR-ALS resolution of windows 10 using 1 component. In the left, the resolved C profile. In the right, the resolved ST profile.*
 
-![Fig7](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig7.png)
+![Fig7](https://github.com/f-puig/DTC/raw/master/figures/Fig7.png)
 
 ***Figure 7.*** *MCR-ALS resolution of windows 10 using 2 componenta. In the left, the resolved C profiles. In the right, the resolved ST profiles.*
 
@@ -132,7 +132,7 @@ Components that explain noise must be removed. To determine which components sho
 
 This function reads a ``.mat`` file (here, named ``file.mat``) containing the set of ```copt``` and ```sopt``` matrices obtained in the previous step and plots them (see **Figure 8**). In these plots, components are labelled according to the total number of components resolved in all the windows. For instance, for **windows 5**, 2 components were used. These two components are, according to this labelling, component number 7 and component number 8, respectively (see **Figure 8**).
 
-![evaluate_feature](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\evaluate_feature.png)
+![evaluate_feature](https://github.com/f-puig/DTC/raw/master/figures/evaluate_feature.png)
 
 ***Figure 8.*** *Resolved components for windows 5. In the left, the resolved C profiles. In the right, the resolved ST profiles.*
 
@@ -212,9 +212,9 @@ After introducing this command, a 4-plot window will be opened (**Figure 9**), a
 > Correlation value is 0.999963 
 > Group NMR feature: 1-YES/0-NO
 
-![DTC1](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC1.png)
+![DTC1](https://github.com/f-puig/DTC/raw/master/figures/DTC1.png)
 
-**Figure 9**.  DTC output.
+***Figure 9***.  *DTC output.*
 
 The 4 plots generated in this step contain different data that can guide the user in the decision of whether the two features belong to the same compound or not:
 
@@ -247,9 +247,9 @@ These are the outputs:
 > Correlation value is 0.999957 
 > Group NMR feature: 1-YES/0-NO
 
-![DTC2](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC2.png)
+![DTC2](https://github.com/f-puig/DTC/raw/master/figures/DTC2.png)
 
-**Figure 10**.  DTC output.
+***Figure 10***.  *DTC output.*
 
 From this second representation, we can guess that feature 2 is also part from the same group of features as the featurs 6 and 13, and so we can add it with the other two.
 
@@ -265,9 +265,9 @@ The process is continued, using the very exact command line:
 > Correlation value is 0.999431
 > Group NMR feature: 1-YES/0-NO
 
-![DTC3](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC3.png)
+![DTC3](https://github.com/f-puig/DTC/raw/master/figures/DTC3.png)
 
-**Figure 11**.  DTC output.
+***Figure 11***.  *DTC output.*
 
 From the representation in **Figure 11**, we can conclude that the feature 4 also is associated to the group of features being built. 
 
@@ -283,9 +283,9 @@ The process is continued, using the very exact command line:
 > Correlation value is 0.9888451
 > Group NMR feature: 1-YES/0-NO
 
-![DTC4](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC4.png)
+![DTC4](https://github.com/f-puig/DTC/raw/master/figures/DTC4.png)
 
-**Figure 12**.  DTC output.
+***Figure 12***.  *DTC output.*
 
 From the representation in **Figure 12**, we can conclude that the feature 18 also is associated to the group of features being built. 
 
@@ -299,9 +299,9 @@ If this process is continued, the new suggested pair is:
 > Correlation value is 0.946835
 > Group NMR feature: 1-YES/0-NO
 
-![DTC6](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC6.png)
+![DTC6](https://github.com/f-puig/DTC/raw/master/figures/DTC6.png)
 
-**Figure 13**.  DTC output.
+***Figure 13***.  *DTC output.*
 
 By looking carefully to the inputs (**Figure 13**), we can appreciate that the spectral profile of the picked resonance (multiplet centered at 2.1 ppm) do not follow the same pattern for all the samples (third plot in **Figure 13**). This can be detected because the sample with the highest feature is green, whereas this is not the case for the other three features shown in the same plot. In fact, for threse three other features (multiplet at 1.5, 1.7, and 1.9 ppm), samples with resonances in green are much smaller than the others.
 
@@ -320,9 +320,9 @@ In this point, ```group_indeces``` is a cell object with 2 entries:
 
 However, since feature ``7`` was not grouped in the first group, ``group_indeces{1,2}`` must be deleteted in order to be considered to be part of another group. This can be directly performed by deleting the second column of the cell array:
 
-![delete_columns](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\delete_columns.png)
+![delete_columns](https://github.com/f-puig/DTC/raw/master/figures/delete_columns.png)
 
-**Figure 14**.  Deleting columns.
+***Figure 14***.  *Deleting columns.*
 
 
 
@@ -336,9 +336,9 @@ After having removed ``group_indeces{1,2}``, we can now proceed to continue with
 > Correlation value is 0.998956
 > Group NMR feature: 1-YES/0-NO
 
-As it can be seen, the chosen features show a much higher correlation (**0.998956**) than the last features picked in the former group of features.![DTC5](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\DTC5.png)
+As it can be seen, the chosen features show a much higher correlation (**0.998956**) than the last features picked in the former group of features.![DTC5](https://github.com/f-puig/DTC/raw/master/figures/DTC5.png)
 
-**Figure 15**.  DTC output.
+***Figure 15***.  *DTC output.*
 
 And this process is being performed until all the features have been grouped. With the given example dataset, features should be grouped in the following groups (metabolite name given inside the parenthesis):
 
@@ -396,9 +396,9 @@ For this case, we used 1000 as the number of iterations and 0.1 as the convergen
 
 Up to a certain point, the iterative MCR-ALS method will reach the convergence state and it stops. With this, a matrix containing the 1H NMR spectra (``sopt``, covering the full spectral range) and another containing the relative concentrations for the corresponding metabolites (``copt``) will be obtained. 
 
-![Fig16](C:\Users\putxv\Desktop\github\DTC-MCR-ALS\Fig16.png)
+![Fig16](https://github.com/f-puig/DTC/raw/master/figures/Fig16.png)
 
-**Figure 16**.  MCR-ALS analysis.
+***Figure 16***.  *MCR-ALS analysis.*
 
 ## References: ##
 
